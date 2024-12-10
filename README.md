@@ -26,5 +26,5 @@ O objetivo deste projeto é ajudar a visualizar o comportamento da **porta AND**
    git clone https://github.com/username/repository-name.git
 
 ## Visualização
-clique aqui:https://cayo.github.io/L-mpada-AND-Simulator/
+clique aqui: https://cayohenrique250.github.io/porta-AND/
 
