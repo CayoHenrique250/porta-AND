@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simulação de Lâmpada com Porta AND</title>
+</head>
+
+<body>
+<br>
+  <div class="conteudo">
+    <div class="caixa">
+      <span>
+        Simulação de Lâmpada - Porta AND
+      </span>
+    </div>
+    <span></span>
+    <span></span>
+  </div>
+<br>
+  <div class="container">
+
+    <div class="explanation">
+      <h2>O que é uma Porta Lógica AND?</h2>
+      <p>
+        A porta lógica AND é um dos blocos fundamentais da lógica digital. Ela recebe duas ou mais entradas e retorna um
+        valor verdadeiro (1) apenas se todas as entradas forem verdadeiras (1). Caso contrário, o valor retornado será
+        falso (0).
+      </p>
+      <ul>
+        <li>Se ambas as entradas forem verdadeiras (ligadas), a saída será verdadeira (ligada).</li>
+        <li>Se qualquer uma das entradas for falsa (desligada), a saída será falsa (desligada).</li>
+      </ul>
+      <p>Na simulação abaixo, você controlará duas "entradas" que determinam se a lâmpada será ligada ou desligada.</p>
+    </div>
+
+    <div id="lamp">
+      <img id="lampImage" src="./img/desligada.jpg" alt="Lâmpada">
+    </div>
+
+    <div class="buttons-container">
+      <button id="entrada1">False (0)</button>
+      <button id="entrada2">False (0)</button>
+    </div>
+
+    <br>
+
+    <div id="status">A lâmpada está desligada. Ambas as entradas são falsas.</div>
+  <br>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
